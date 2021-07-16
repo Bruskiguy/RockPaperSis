@@ -21,7 +21,7 @@ if (playerSelection === "ROCK") {
         alert("Tie: Both selected ROCK");
     else if (computerPlay === "PAPER")
         alert("You Lose! PAPER beats ROCK");
-    else (computerPlay === "SCISSORS")
+    else if(computerPlay === "SCISSORS")
         alert("You Won! ROCK beats SCISSORS");
 } 
 else if (playerSelection === "PAPER") {
@@ -29,7 +29,7 @@ else if (playerSelection === "PAPER") {
         alert("TIE: Both selected PAPER");
     else if (computerPlay === "ROCK")
         alert("You Won! PAPER beats ROCK");
-    else (computerPlay === "SCISSORS")
+    else if (computerPlay === "SCISSORS")
         alert("You Lose! SCISSORS beats PAPER");
 } else if (playerSelection === "SCISSORS") {
     if (computerPlay === "SCISSORS")
